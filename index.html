@@ -29,7 +29,7 @@
     function submit(){
       var name = document.getElementById("name").value;
       var Address = document.getElementById("Add").value;
-      var mobile = document.getElementById("Add").value;
+      var mobile = document.getElementById("mob1").value;
       var student = new studentmodule.student();
       student.setName(name);
       student.setAddress(Address);
@@ -54,7 +54,7 @@
   </tr>
   <tr>
     <td>mobile : &emsp; </td>
-    <td><input type="text" id="mobile"></td>
+    <td><input type="text" id="mob"></td>
   </tr>
   </table>
   <button onclick="submit()">submit</button>
